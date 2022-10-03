@@ -1,6 +1,8 @@
 ---
 site: CPSC 349 - Fall 2022 - Project 1
 ---
+<!doctype html>
+<html lang="en">
 
 <head>
     <title>{{ title }} - {{ site }}</title>
@@ -8,5 +10,29 @@ site: CPSC 349 - Fall 2022 - Project 1
 </head>
 
 <body>
+
+    <header>
+        <!-- Header part -->
+      <div class="header" style="background-color: #05a081; color: white; text-align: center; height: 100px; margin-left: -32px; margin-right:-32px;">
+        <h1 style="margin: 0 0; line-height: 100px; font-size: 40px;">{{ title }}</h1>
+    </div>
+    </header>
+
+    <nav>
+        <a href="/index.html" style="padding: 50px;">Home</a> |
+        <a href="/about.html/" style="padding: 50px;">About</a>
+    </nav>
+
     {{ content }}
+
+    <footer>
+        <hr>
+        <p>
+            <small>
+                <a href="https://www.pexels.com">Photos provided by Pexels</a>
+            </small>
+        </p>
+    </footer>
+    
 </body>
+</html>
