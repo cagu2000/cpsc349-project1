@@ -10,7 +10,7 @@ permalink: "/{{photo.id}}/"
 
 <body style="color: white;background:
     {{photo.avg_color}}">
-    
+
     <h1 style= "font-size: 40px; color: white;text-align: center">{{photo.alt}}</h1>
 
     <img src="{{photo.src.landscape}}" alt="{{photo.alt}}">
@@ -22,7 +22,7 @@ permalink: "/{{photo.id}}/"
 
 <nav>
     {% if pagination.href.previous %}
-    <a href="{{pagination.href.previous}}"><b>Previous</b></a></li>
+    <a href="{{pagination.href.previous}}"><b>Previous</b></a>
     {% else %}
     &nbsp;
     {% endif %}
